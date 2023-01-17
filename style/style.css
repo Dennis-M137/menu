@@ -1,0 +1,76 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    transition: background-color .5s;
+}
+
+.sidenav {
+    width: 0;
+    height: 70vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, #672345 70%, #345678);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    margin: 0;
+    padding: 19px 16px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.openbtn span {
+    width: 34px;
+    background-color: #000;
+    height: 3px;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.openbtn span:last-child {
+    margin-bottom: 0px;
+}
+
+.header {
+    margin-left: 55px;
+}
+
+.header .heading {
+    color: rgb(166, 24, 24);
+    font: 35px bolder;
+    margin-bottom: 1px solid rgba(9, 8, 8, 0.876);    
+}
+
+.header .heading span {
+    width: 20px;
+    height: 20px;
+}
+
