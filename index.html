@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en-US">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="style/style.css">
     </head>
     <body>
+      <section id="nav">
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn">&times;</a>
         <a href="index.html">Home</a>
@@ -23,10 +24,39 @@
 
       <div class="header">
       
-        <h1 class="heading">  <span>
-            <img src="images/javascript.png" alt="js icon">
-        </span> Mobile Menu</h1>
+        <h1 class="heading">Mobile Menu</h1>
       </div>
+      </section>
+      <form action="" id="bmi">BMI cacl <br>
+        <label for="">
+          HEIGHT
+          <input type="text" id="height" placeholder="cm">
+        </label>
+        <label for="">
+          WEIGHT
+          <input type="text" id="weight" placeholder="cm">
+        </label>
+        <br>
+        <label for="">
+          <button type="button" id="sum">Calculate</button>
+        </label>
+              </form>
+
+              <h3><span id="result"></span></h3>
+
+              <hr>
+
+              <form action="">
+                <label for="">
+                  Input Item:
+                  <input type="text" id="item">
+                </label>
+                <label for="">
+                  <button type="button" id="submit">Submit</button>
+                </label>
+              </form>
+
+              
         
         <script src="script/script.js"></script>
     </body>
